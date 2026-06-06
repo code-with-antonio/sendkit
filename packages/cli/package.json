@@ -1,11 +1,14 @@
 {
-  "name": "sendkit",
+  "name": "@cwa-dev/sendkit",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "dependencies": {
     "commander": "^15.0.0",
-    "sendkit-core": "workspace:*",
+    "@cwa-dev/sendkit-core": "workspace:*",
     "zod": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsdown"
   }
 }

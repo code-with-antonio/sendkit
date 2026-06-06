@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 
-import { sendTelegramMessage, telegramMessageInputSchema } from "sendkit-core";
+import { sendTelegramMessage, telegramMessageInputSchema } from "@cwa-dev/sendkit-core";
 
 function createServer(botToken: string) {
   const server = new McpServer({
